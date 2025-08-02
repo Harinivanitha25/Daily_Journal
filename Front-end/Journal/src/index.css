@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.journal-form input,
+.journal-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.mood-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.mood-button {
+  flex: 1;
+  padding: 0.7rem;
+  margin: 0 0.3rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.mood-button.happy { background-color: #86efac; color: #166534; }
+.mood-button.sad { background-color: #fca5a5; color: #7f1d1d; }
+.mood-button.moderate { background-color: #fde68a; color: #78350f; }
+
+.journal-form button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #167b1c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.entry {
+  background-color: #f9fafb;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.delete-btn {
+  margin-top: 1rem;
+  background-color: #e22424;
+  color: white;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mood-cell {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px;
+}
+
+.happy { background-color: #1d7c31; }
+.sad { background-color: #f87171; }
+.moderate { background-color: #facc15; }
+
+.month-section {
+  margin-top: 2rem;
+}
+
+.view-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
